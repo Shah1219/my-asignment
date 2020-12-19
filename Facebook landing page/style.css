@@ -1,0 +1,101 @@
+#maindiv{
+    background-color: #F0F2f5;
+    width: 100%;
+    height: 624px;
+    margin-top: -8px;
+}
+#fb-img{
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+#heading{
+    position: absolute;
+    top: 250px;
+    left: 235px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+#form{
+    width: 396px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+#form2{
+    width: 396px;
+    height: 128px;
+    background-color: white;
+}
+#email{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 42px;
+    border-radius: 8px;
+    width: 325px;
+    padding-left: 15px;
+    font-size: 12px;
+    border: 1px solid #dddfe2;
+    word-spacing: 3px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1c1e21;;
+    
+}
+#password{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 42px;
+    border-radius: 8px;
+    width: 325px;
+    padding-left: 15px;
+    font-size: 12px;
+    border: 1px solid #dddfe2;
+    word-spacing: 3px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1c1e21;;
+}
+#submit{
+    background-color: #1877f2;
+    width: 345px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #dddfe2;
+}
+#para{
+    margin-left: 110px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1877f2;
+}
+#para2{
+    width: 345px;
+    margin-left: 20px;
+    border-bottom: 1px solid #dddfe2;
+}
+#btn{
+    margin-left:85px;
+    width: 200px;
+    height: 45px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #dddfe2;
+    background-color: #42B72A;
+}
+#email:focus{
+    border: 1px solid #1877f2;
+    border-radius: 8px;
+} 
