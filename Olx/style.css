@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #fff;
+}
+
+.input1{
+    position: relative;
+    
+}
+.search-icon{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+}
+#search-1{
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#search-1::placeholder{
+    padding-left: 35px;
+    color: black
+}
+#search-2{
+    width: 90%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#search-2::placeholder{
+    color: black;
+    padding-left: 15px;
+}
+#search-btn{
+    padding: 13px;
+    background-color: #002f34;
+    color: white;
+    border: none;
+    margin-left: -5px;
+    border-radius: 4px;
+}
+.input2{
+    padding: 0;
+    margin: 0;
+    width: 550px;
+    
+}
+#link{
+    color: #2f565a;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+#sell-btn{
+    background-color: #fff;
+    padding: 15px 27px 15px 27px;
+    border-radius: 40%;
+    border-left: 4px solid red;
+    border-right: 4px solid blue;
+    border-top: 4px solid green;
+    border-bottom: 4px solid yellow;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    
+    position: fixed;
+}
+.link{
+    margin-top: 15px;
+}
+.nav-li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+.nav-li a {
+    text-decoration: none;
+    color: #002f34;
+}
+.subnav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    background-color: #fff;
+}
+.select{
+    border: none;
+}
+.cover{
+    background-image: url(images/Cover.jpg);
+    width: 100%;
+    height: 252px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 1;
+}
+.products{
+    margin-top: 10px;
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+    padding-bottom: 25px;
+
+}
+.cards{
+    background-color: #ebeeef;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+.product-card{
+    margin-top: 30px;
+    width: 221.75px;
+    height: 250px;
+    background-color: #fff;
+    text-align: center;
+   
+}
+.div1{
+    border-left: 5px solid #ffce32;
+}
+.card-img{
+    margin-top: 15px;
+    width: 175px;
+    height: 144px;
+}
+.product-card p{
+    padding: 0;
+    margin: 0;
+}
+
+/* .price-div{
+    width: 217px;
+    
+    background-color: #fff;
+    border-left: 5px solid #ffce32;
+}
+.price-div h3{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.price-div p{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+} */
+.sub-footer1{
+    background-color: #f7f8f9;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subfootertext{
+    width: 307.14px;
+    border-right: 2px solid #c6cfd1;
+    padding-right: 30px;
+    padding-top: 10px;
+    height: 125px;
+    margin-top: 20px;
+}
+.appdiv h5{
+    padding-left: 150px;
+    
+}
+.footerimg2{
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#footerimg3{
+    padding-top: 10px;
+}
+.footer-li{
+    list-style-type: none;
+    color: #002F34A3;
+    font-size: 12px;
+    margin: 0;
+    padding: -10px;
+}
+.listheading{
+    color: #002F34;
+    font-size: 14px;
+    font-weight: bold;
+}
+.socialmedia{
+    color: #557477;
+    padding: 10px;
+    
+}
+.subfooter2{
+    background-color: #ebeeef;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid #bcc7c9;
+}
+.footer{
+    width: 100%;
+    background-color: #002f34;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.span{
+    font-weight: bold;
+}
+.footer1 ,.footer2 {
+    color: #fff;
+    font-size: 12px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 900px){
+    .input2{
+        width: 50%;
+    }
+}
+@media screen and  (max-width: 750px){
+    .input2{
+        width: 30%
+    }
+}
+@media screen and  (max-width: 643px){
+    .input2 {
+        display: none;
+    }
+    .input1 {
+        display: none;
+    }
+}
