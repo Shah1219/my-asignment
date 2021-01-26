@@ -1,0 +1,45 @@
+#main {
+    width: 220px;
+    border: 2px solid grey;
+    margin: 0 auto;
+    background-color: #8a8484;
+}
+#input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #8a8484;
+    border: none;
+}
+.clear {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #8a8484;
+    padding: 2px;
+    
+}
+.btn7 {
+    width: 23.5%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #8a8484;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn0 {
+    width: 32%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #8a8484;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#clear:hover {
+    background-color: aliceblue;
+}
+#btn7:hover {
+    background-color: aliceblue;
+}
+#btn0:hover {
+    background-color: aliceblue;
+}
