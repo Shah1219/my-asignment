@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    background-image: url(images/stopwatch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    margin:0;
+    text-align: center;
+    font-size: 76px;
+    color: rgb(85, 177, 238);
+    text-decoration: underline;
+    text-shadow: 2px 2px red;
+   
+}
+h2{
+    margin: 0;
+    display: inline-block
+}
+#h2 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    width: 600px;
+    border: 2px solid rgb(85, 177, 238);;
+    box-shadow: 2px 3px rgb(85, 177, 238);;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    color: rgb(136, 12, 12);
+    
+    
+}
+#min{
+    margin: 45px;
+}
+#sec{
+    margin: 45px;
+}
+#msec{
+    margin: 45px;
+}
+#a1{
+    margin: 45px;
+}
+#a2{
+    margin: 45px;
+}
+#btn{
+ position: relative;
+ top: 100px;
+ left: 135px;
+ margin-left: 25px;
+
+}
+#started{
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: 2px solid  rgb(85, 177, 238);
+    border-radius: 5px;
+    color: rgb(85, 177, 238);
+    text-shadow: 1px 1px red;
+}
+#pause{
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: 2px solid  rgb(85, 177, 238);
+    border-radius: 5px;
+    color: rgb(85, 177, 238);
+    text-shadow: 1px 1px red;
+}
+#stop{
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: 2px solid rgb(85, 177, 238);
+    border-radius: 5px;
+    color: rgb(85, 177, 238);
+    text-shadow: 1px 1px red;
+}
