@@ -79,9 +79,16 @@ function correctAnswer(e){
     
     
 }
+
+// function result(){
+//     var heading = document.getElementById('heading1');
+//     heading.innerHTML = "Hello World"
+// }
 function submitbutton(){
-   var heading1 =  document.location.assign("result.html").getElementById('h1')
-
-    heading1.innerHTML = "helloo"
-
-}
+    alert("Your Result is  " + marks)
+    //    var heading1 =  document.location.assign("result.html").getElementById('h1')
+    
+    //     heading1.innerHTML = "helloo"
+    // document.location.href = "result.html"
+    // result()
+    }
